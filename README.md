@@ -24,16 +24,18 @@ There are three types of 'animations' available to us in css
 
 ## Get ready to code along
 - navigate to your lessons folder on your computer
-- `git clone xxxx`
--  `cd xxxxx`
-- open the index.html and css files in your text editor - recommended split screen
+- `git clone https://github.com/HackerUSA-CE/code-along-3.3.1`
+-  `cd code-along-3.3.`
+- open the index.html and code-along.css files in your text editor - recommended split screen
 - open the index.html file in your browser
-- should look like xxxxx
+- should look like
+
+![](./assets/starter-index-html.png)
 
 ## Our Starter code
 We have two files
 - `index.html` which has
-  - a div with a class conainer,
+  - a div with a class container,
   - a div for our 3 demos
 - `main.css`
  - is already linked to our `index.html`
@@ -46,6 +48,7 @@ We have two files
  - in our demo, we'll use transform to hide some text
  - we will see that animations move our animated element outside of the natural flow
 
+#### `code-along.css`
 
  ```CSS
  .transform-demo > div {
@@ -79,7 +82,7 @@ Let's confirm our `h3` tag and it's code is still there
    margin-auto;
    display: inline-block;
    transform: translate(150px);
-   opacity: .5;
+   opacity: 0.5;
  }
  ```
 
@@ -198,6 +201,7 @@ Let's add some more states, right now our transition goes from green to brown to
 
 Let's also change the very end to make this bar circular and shrink off the page
 
+```css
 @keyframes sale-bar {
   0%   {background-color: lightgreen; width: 450px}
   25%  {background-color: gold; width: 375px}
@@ -205,3 +209,4 @@ Let's also change the very end to make this bar circular and shrink off the page
   75%  {background-color: #FF033E; width: 125x; border-radius: 0; transform: scale(1);}
   100% {background-color: crimson; width: 10px; border-radius: 100%; transform: scale(0)}
 }
+```
