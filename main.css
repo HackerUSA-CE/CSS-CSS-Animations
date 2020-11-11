@@ -1,0 +1,50 @@
+/****************************************
+* General
+****************************************/
+html {
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin:auto;
+}
+
+[class$=demo]{
+  border: 1px solid silver;
+  min-height: 200px;
+  margin: 5px;
+  box-shadow: 2px 2px 4px darkgrey;
+  border-radius: 2px;
+}
+
+/****************************************
+* Transform
+****************************************/
+.transform-demo > h3 {
+  vertical-align: top;
+  width: 30%;
+  margin: 5px  auto;
+  display: inline-block;
+
+}
+/****************************************
+* Transition
+****************************************/
+
+.transition-demo img {
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  opacity: .5;
+  text-decoration: none;
+  color: salmon;
+}
