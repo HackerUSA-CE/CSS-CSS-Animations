@@ -25,7 +25,7 @@ There are three types of 'animations' available to us in css
 ## Get ready to code along
 - navigate to your lessons folder on your computer
 - `git clone https://github.com/HackerUSA-CE/code-along-3.3.1`
--  `cd code-along-3.3.`
+-  `cd code-along-3.3.1`
 - open the index.html and code-along.css files in your text editor - recommended split screen
 - open the index.html file in your browser
 - should look like
