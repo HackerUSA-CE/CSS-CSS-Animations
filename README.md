@@ -5,10 +5,7 @@
 Learning Objectives
 - students will be able to explain why animations are useful on a web sites
 - students will be able to differentiate between a transform, transition and animation
-- student will be able to explain what is tweening
-- students will be able to apply some rules to see animations in effect
-- students will be able to apply multiple rules to one element
-- students will learn to make an animation using `@keyframes`
+- students will be able to write code to transform, transition and animate elements
 
 CSS animations are a simple and great way to make a web site stand out. They can draw the eye to certain elements and add engagement.
 
@@ -121,6 +118,17 @@ Let's slow down the transition by adding a role to the start state
 ```
 
 We can also add a second rule and we can add multiple effects to this rule. This demo is a bit OTT (over the top), to demonstrate the transition. However, when building web sites, be sure to use sparing and subtle animations.
+
+```css
+.transition-demo img:hover {
+  filter: none;
+  transform: scale(1.25) rotate(360deg);
+  transform: rotate(360deg);
+}
+```
+Uh oh! Only the rotation works! Remember, with CSS, you can only have one of each rule per element and the last rule is the one that will be applied.
+
+So how can we apply both transforms?
 
 ```css
 .transition-demo img:hover {

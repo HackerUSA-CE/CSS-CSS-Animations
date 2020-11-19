@@ -17,11 +17,11 @@
 ****************************************/
 
 .transition-demo img {
+  margin-bottom: .5em;
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
-  transition-duration: 2s;
-  margin-bottom: .5em;
+
 }
 
 .transition-demo img:hover {
