@@ -5,7 +5,7 @@
   height: 40px;
   background: salmon;
   width: 20%;
-  margin-auto;
+  margin: auto;
   display: inline-block;
 }
 
@@ -39,7 +39,7 @@
 }
 
 @keyframes sale-bar {
-  0%   {background-color: lightgreen; width: 450px}
-  75%  {background-color: #FF033E; width: 125x; }
-  100% {background-color: crimson; width: 10px; }
+  0% { background-color: lightgreen; width: 450px }
+  75% { background-color: #FF033E; width: 125x }
+  100% { background-color: crimson; width: 10px }
 }
